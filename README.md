@@ -1,0 +1,1 @@
+Criei duas pastas: uma chamada Brechó, que contém os arquivos JS, CSS, HTML, além das imagens cabide.png e casaco.png; e outra chamada imagens, onde estão as 13 imagens dos produtos. Na parte do modal, recebi bastante ajuda do professor Gabriel, que me auxiliou na inserção das imagens.
