@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: plum;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #e295e8;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #d479d9;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+footer {
+  background-color: #e295e8; 
+  color: white; 
+  text-align: center; 
+  padding: 10px; 
+}
+
+#meuModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  padding-top: 50px;
+}
+
+#imagemModal {
+  max-width: 90%;
+  max-height: 80%;
+}
+
+#fechar {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
